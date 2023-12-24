@@ -1,0 +1,6 @@
+plugin:
+    name: 'wpjscc.mpage::lang.plugin.name'
+    description: 'wpjscc.mpage::lang.plugin.description'
+    author: wpjscc
+    icon: wn-icon-adjust
+    replaces: {  }

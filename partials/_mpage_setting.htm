@@ -1,0 +1,13 @@
+<?php
+
+$setting = \Wpjscc\MPage\Models\MPageSetting::class;
+
+$is_open = $setting::get('is_open', '');
+$is_force_open_new_tab = $setting::get('is_force_open_new_tab', '');
+
+?>
+
+<div 
+    data-is-open='<?= $is_open ?>'
+    data-is-force-open-new-tab='<?= $is_force_open_new_tab ?>'
+id="mpage-setting"></div>

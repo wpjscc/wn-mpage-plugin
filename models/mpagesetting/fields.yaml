@@ -1,0 +1,33 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    is_open:
+        label: 'wpjscc.mpage::lang.mpagesetting.is_open'
+        comment: 'wpjscc.mpage::lang.mpagesetting.is_open_comment'
+        span: auto
+        type: switch
+        default: 0
+        on: 'Yes'
+        off: 'No'
+    is_list_open:
+        label: 'wpjscc.mpage::lang.mpagesetting.is_list_open'
+        comment: 'wpjscc.mpage::lang.mpagesetting.is_list_open_comment'
+        span: left
+        type: switch
+        default: 0
+        on: 'Yes'
+        off: 'No'
+    is_force_open_new_tab:
+        label: 'wpjscc.mpage::lang.mpagesetting.is_force_open_new_tab'
+        comment: 'wpjscc.mpage::lang.mpagesetting.is_force_open_new_tab_comment'
+        span: auto
+        type: switch
+        default: 0
+        on: 'Yes'
+        off: 'No'
+
+      
+        
+    
