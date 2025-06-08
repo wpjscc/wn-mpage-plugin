@@ -75,6 +75,16 @@ class Plugin extends PluginBase
                     });
                 }
             }
+
+            $urls = MPageSetting::get('ignore_urls');
+            if ($urls) {
+                $urls = explode(',', $urls);
+                foreach ($urls as $url) {
+                    if (str_contains(request()->url(), $url)) {
+                        return ;
+                    }
+                }
+            }
             
 
             $controller->extend(function() {
