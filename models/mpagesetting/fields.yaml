@@ -27,6 +27,11 @@ fields:
         default: 0
         on: 'Yes'
         off: 'No'
+    ignore_urls:
+        label: 忽略的URL
+        comment: 忽略的URL，多个URL用逗号分隔
+        span: auto
+        type: taglist
 
       
         
